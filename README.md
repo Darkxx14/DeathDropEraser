@@ -40,7 +40,7 @@ DeathDropEraser is a Spigot plugin designed to give server administrators precis
 
 ## Installation
 
-1. Download the plugin JAR file from the [releases page](link_to_releases).
+1. Download the plugin JAR file from the [releases page](https://github.com/Darkxx14/DeathDropEraser/releases).
 2. Place the JAR file into your server's `plugins` folder.
 3. Start or reload your server.
 
@@ -50,6 +50,13 @@ Customize the plugin behavior via the configuration file located at `plugins/Dea
 
 Example configuration:
 ```yaml
-# Configuration for DeathDropEraser
-dropsEnabled: true
-# Add more configuration options here
+#
+#  ████████████████████████████████████████████████████████████████████████████████████████████
+#  █▄─▄▄▀█▄─▄▄─██▀▄─██─▄─▄─█─█─███▄─▄▄▀█▄─▄▄▀█─▄▄─█▄─▄▄─███▄─▄▄─█▄─▄▄▀██▀▄─██─▄▄▄▄█▄─▄▄─█▄─▄▄▀█
+#  ██─██─██─▄█▀██─▀─████─███─▄─████─██─██─▄─▄█─██─██─▄▄▄████─▄█▀██─▄─▄██─▀─██▄▄▄▄─██─▄█▀██─▄─▄█
+#  ▀▄▄▄▄▀▀▄▄▄▄▄▀▄▄▀▄▄▀▀▄▄▄▀▀▄▀▄▀▀▀▄▄▄▄▀▀▄▄▀▄▄▀▄▄▄▄▀▄▄▄▀▀▀▀▀▄▄▄▄▄▀▄▄▀▄▄▀▄▄▀▄▄▀▄▄▄▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀
+
+# !! Using Config to edit is not recommended use /dde <enable/disable> !!
+drop_items: true
+drop_experience: true
+
