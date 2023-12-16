@@ -1,0 +1,13 @@
+name: DeathDropEraser
+version: 'v2'
+main: xyris.darkxx.deathdroperaser.Main
+author: Darkxx
+website: darkxx.xyz
+api-version: '1.19'
+commands:
+  dde:
+    permission: dde.admin
+
+permissions:
+  dde.admin:
+    description: access to /dde <reload/enable/disable>
